@@ -1,0 +1,3 @@
+# 140 charaters assinment documentation
+
+- At first I was tring to start with FreeVerb, But I like to get inspiration from looking objects in classes or just search some stuff. And I find a object called Gverb, it sound more wet or "cinematic" to me. So I start with it, and I just want to make a simple bass drone, so I go with a simple RLPF instead of regular LPF, to make it sound more smooth at start fot it's attack. But I also wnat some sort of processing in time. So my first idea is I want some noise, and I find a objetc called LFNoise1 that has the element of randomness, and of course a Saw and a Pan2. In the end, I find this a useful patch just to make a simple drone sound with a little bit of random changes in time.
