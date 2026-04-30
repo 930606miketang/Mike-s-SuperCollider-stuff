@@ -38,7 +38,7 @@ s.waitForBoot({
         sig = HPF.ar(sig, 22); // sounds like breathing
 
         pan = SinOsc.kr(0.006) + (LFNoise1.kr(0.015) * 0.4);
-        pan = pan.clip(-1, 1); //Range Avoid clip
+        pan = pan.clip(-1, 1); //Range, Avoid clip
 
         sig = Pan2.ar(sig, pan, 0.75);
 
@@ -53,4 +53,4 @@ s.waitForBoot({
 )
 
 
-x.free;
+x.release(5);  
